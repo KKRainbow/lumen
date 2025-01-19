@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { FooterData, Icon, isExternal } from '../types'
 
-import dayjs from 'dayjs/esm'
+import dayjs from 'dayjs'
 
 // 使用 defineProps 定义属性
 const props = defineProps<{ Footer_Data: FooterData }>()
